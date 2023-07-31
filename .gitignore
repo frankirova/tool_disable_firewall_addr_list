@@ -1,3 +1,4 @@
-Lib
+Lib/
 credentials.json
 .env
+__pycache__/
