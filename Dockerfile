@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir --upgrade -r /api/requirements.txt
 
 COPY . /api
 
-CMD [ 'uvicorn', 'main:api', '--host', '0.0.0.0', '--port', '8000' ]
+CMD [ "uvicorn", "main:api", "--host", "0.0.0.0", "--port", "8000" ]
