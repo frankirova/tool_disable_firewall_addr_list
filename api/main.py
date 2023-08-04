@@ -19,7 +19,3 @@ api.add_middleware(
 )
 # Rutas
 api.include_router(router)
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="172.17.0.2", port=8000)
